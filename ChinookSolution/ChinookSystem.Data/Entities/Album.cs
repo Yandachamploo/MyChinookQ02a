@@ -13,5 +13,15 @@ namespace ChinookSystem.Data.Entities
 {
     public class Album
     {
+        [Key]
+        public int AlbumId { get; set; }
+        public String Title { get; set; }
+        public int ArtistId { get; set; }
+        public int ReleaseYear { get; set; }
+        public string ReleaseLabel { get; set; }
+        
+
+        public virtual ICollection<Track> Tracks { get; set; }
+        public virtual Artist Artist { get; set; }
     }
 }
