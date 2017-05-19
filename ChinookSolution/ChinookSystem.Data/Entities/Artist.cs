@@ -16,9 +16,9 @@ namespace ChinookSystem.Data.Entities
     {
         [Key]
         public int ArtistId { get; set; }
-        public string Name { get; set;}
+        public string Name { get; set; }
 
-        //Navigation property used by LING
+        // Navigation property used by LINQ
         public virtual ICollection<Album> Albums { get; set; }
     }
 }

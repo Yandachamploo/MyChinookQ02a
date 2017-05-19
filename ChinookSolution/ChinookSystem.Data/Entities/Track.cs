@@ -11,8 +11,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ChinookSystem.Data.Entities
 {
-    [Table("Track")]
-    public class Track 
+    [Table("Tracks")]
+    public class Track
     {
         [Key]
         public int TrackId { get; set; }
@@ -24,7 +24,6 @@ namespace ChinookSystem.Data.Entities
         public int Milliseconds { get; set; }
         public int? Bytes { get; set; }
         public decimal UnitPrice { get; set; }
-        
 
         public virtual Album Album { get; set; }
     }

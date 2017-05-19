@@ -2,11 +2,11 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <h3>My contact page.</h3>
     <address>
-        Vincent <br />
-        IEC<br />
+        Troy Lau<br />
+        2468, Songbei District, Harbin<br />
         <abbr title="Phone">P:</abbr>
-        187460237970
+        15355480342
     </address>
 </asp:Content>

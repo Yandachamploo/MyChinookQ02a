@@ -3,32 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ChinookWeb", "ChinookWeb\", "{7D5D465F-0A24-4C82-B1EA-1FBEB26331BB}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ChinookWeb", "ChinookWeb\", "{C828B5EC-0739-4348-9C5E-9CBFC88E8016}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		ProjectReferences = "{403de29f-547d-46ad-a88d-aac4271ba413}|ChinookSystem.Data.dll;{42f68c7b-6275-479e-a2a9-389b77079f1b}|ChinookSystem.dll;"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_49968"
+		ProjectReferences = "{15a82af3-35ce-4d33-8e43-1e9493ba3827}|ChinookSystem.dll;{a65841c7-bf67-4d24-a8eb-605d81eb88bb}|ChinookSystem.Data.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50348"
 		Debug.AspNetCompiler.PhysicalPath = "ChinookWeb\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49968\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50348\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_49968"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50348"
 		Release.AspNetCompiler.PhysicalPath = "ChinookWeb\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49968\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50348\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "49968"
+		VWDPort = "50348"
 		SlnRelativePath = "ChinookWeb\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookSystem", "ChinookSystem\ChinookSystem.csproj", "{42F68C7B-6275-479E-A2A9-389B77079F1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookSystem", "ChinookSystem\ChinookSystem.csproj", "{15A82AF3-35CE-4D33-8E43-1E9493BA3827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookSystem.Data", "ChinookSystem.Data\ChinookSystem.Data.csproj", "{403DE29F-547D-46AD-A88D-AAC4271BA413}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookSystem.Data", "ChinookSystem.Data\ChinookSystem.Data.csproj", "{A65841C7-BF67-4D24-A8EB-605D81EB88BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,18 +36,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7D5D465F-0A24-4C82-B1EA-1FBEB26331BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D5D465F-0A24-4C82-B1EA-1FBEB26331BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D5D465F-0A24-4C82-B1EA-1FBEB26331BB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D5D465F-0A24-4C82-B1EA-1FBEB26331BB}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{42F68C7B-6275-479E-A2A9-389B77079F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42F68C7B-6275-479E-A2A9-389B77079F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42F68C7B-6275-479E-A2A9-389B77079F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42F68C7B-6275-479E-A2A9-389B77079F1B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{403DE29F-547D-46AD-A88D-AAC4271BA413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{403DE29F-547D-46AD-A88D-AAC4271BA413}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{403DE29F-547D-46AD-A88D-AAC4271BA413}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{403DE29F-547D-46AD-A88D-AAC4271BA413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C828B5EC-0739-4348-9C5E-9CBFC88E8016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C828B5EC-0739-4348-9C5E-9CBFC88E8016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C828B5EC-0739-4348-9C5E-9CBFC88E8016}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C828B5EC-0739-4348-9C5E-9CBFC88E8016}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{15A82AF3-35CE-4D33-8E43-1E9493BA3827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A82AF3-35CE-4D33-8E43-1E9493BA3827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A82AF3-35CE-4D33-8E43-1E9493BA3827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A82AF3-35CE-4D33-8E43-1E9493BA3827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A65841C7-BF67-4D24-A8EB-605D81EB88BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65841C7-BF67-4D24-A8EB-605D81EB88BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65841C7-BF67-4D24-A8EB-605D81EB88BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65841C7-BF67-4D24-A8EB-605D81EB88BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
